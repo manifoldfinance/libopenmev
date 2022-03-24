@@ -11,6 +11,8 @@
     "noImplicitReturns": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
+    "importHelpers": true,
+    "downlevelIteration": true,
     "noUnusedLocals": true,
     "noImplicitAny": true,
     "declaration": true,
@@ -21,4 +23,6 @@
     "rootDir": "./src",
     "outDir": "./dist"
   },
+  "include": ["src"],
+  "exclude": ["node_modules", "tmp", "test"]
 }

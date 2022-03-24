@@ -12,7 +12,7 @@ export enum SupportedChainId {
 
 export class Url extends Connector {
   /** {@inheritdoc Connector.provider} */
-  public provider: Eip1193Bridge | undefined
+  declare public provider: Eip1193Bridge | undefined
 
   private eagerConnection?: Promise<void>
   private url: url
