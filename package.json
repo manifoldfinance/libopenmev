@@ -19,6 +19,7 @@
   "devDependencies": {
     "@types/node": "^16.7.10",
     "esbuild": "^0.12.26",
+    "prettier": "^2.6.0",
     "rollup": "^2.56.3",
     "rollup-plugin-dts": "^4.0.0",
     "rollup-plugin-esbuild": "^4.5.0",
