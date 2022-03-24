@@ -1,0 +1,7 @@
+dist/
+build/
+*.min.js
+*.js
+*.html
+*.css
+*.scss
